@@ -1,0 +1,26 @@
+[debug] [2019-06-18T00:03:13.492Z] ----------------------------------------------------------------------
+[debug] [2019-06-18T00:03:13.497Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\rkyle\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only functions
+[debug] [2019-06-18T00:03:13.497Z] CLI Version:   6.11.0
+[debug] [2019-06-18T00:03:13.497Z] Platform:      win32
+[debug] [2019-06-18T00:03:13.497Z] Node Version:  v10.15.3
+[debug] [2019-06-18T00:03:13.498Z] Time:          Mon Jun 17 2019 18:03:13 GMT-0600 (Mountain Daylight Time)
+[debug] [2019-06-18T00:03:13.499Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-06-18T00:03:13.510Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-06-18T00:03:13.511Z] > authorizing via signed-in user
+[debug] [2019-06-18T00:03:13.511Z] [iam] checking project exam-965a4 for permissions ["firebase.projects.get"]
+[debug] [2019-06-18T00:03:13.513Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/exam-965a4:testIamPermissions  
+
+[debug] [2019-06-18T00:03:14.042Z] <<< HTTP RESPONSE 200
+[debug] [2019-06-18T00:03:14.043Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/exam-965a4  
+ 
+[debug] [2019-06-18T00:03:14.555Z] <<< HTTP RESPONSE 200
+[info] +  functions: Using node@10 from host.
+[debug] [2019-06-18T00:03:14.562Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/132505753873:getServerAppConfig  
+ 
+[debug] [2019-06-18T00:03:14.886Z] <<< HTTP RESPONSE 200
+[info] +  functions: Emulator started at http://localhost:5000
+[info] i  functions: Watching "C:\Users\rkyle\OneDrive\Documents\8_BYU_Spring_2019\cs260\lab-5-photo-bomb-rkylerd\functions" for Cloud Functions...
+[debug] [2019-06-18T00:03:15.372Z] Functions runtime initialized.
+[debug] [2019-06-18T00:03:15.373Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[debug] [2019-06-18T00:03:16.127Z] firebase-admin has been stubbed.
